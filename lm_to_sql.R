@@ -1,3 +1,5 @@
+##this function is used to transform a multiple linear formula into SQL code.
+
 lm_to_sql <- function(x)
 {
   
