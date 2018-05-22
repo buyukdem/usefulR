@@ -1,4 +1,4 @@
-##this function is used to transform a multiple linear regression formula (lm function) into SQL code.
+##this function is used to transform a multiple linear regression formula in R (lm function) into SQL code.
 
 lm_to_sql <- function(x)
 {
