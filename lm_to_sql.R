@@ -2,8 +2,8 @@
 ##categorical variables in the model should have numerical values in order for function to work. If your categorical variables
 ##consist of character values, change the for loop in the function as following:
 #    if (all_merged$type[i]=="factor") 
-#    {sql0 <- paste0("(case when ", all_merged$variable_name[i], " = ", 
-#                    all_merged$mode_name[i], " then ",all_merged$coef[i]," else 0 end)"," + ")}
+#    {sql0 <- paste0("(case when ", all_merged$variable_name[i], " = '", 
+#                    all_merged$mode_name[i], "' then ",all_merged$coef[i]," else 0 end)"," + ")}
 
 lm_to_sql <- function(x)
 {
