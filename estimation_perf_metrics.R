@@ -13,6 +13,12 @@ mape <- function(actual, predicted){
   return (mape)
 }
 
+#absolute error rate
+aer <- function(actual, predicted){
+  aer <- sum(abs(actual - predicted))/sum(actual)
+  return (aer)
+}
+
 #set the tolerance level to whichever you want
 tolerance <- function(actual, predicted, tol){
        actual <- as.data.frame(actual)
