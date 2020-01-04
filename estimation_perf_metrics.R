@@ -1,6 +1,6 @@
-## Functions for performance metrics of estimation models
+### Functions for performance metrics of estimation models
 
-## actual: actual values of target, predicted: predicted values of target
+### actual: actual values of target, predicted: predicted values of target
 #mean absolute error
 mae <- function(actual, predicted){
   mae <- mean(abs(actual - predicted))
