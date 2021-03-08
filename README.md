@@ -1,6 +1,6 @@
 # usefulR
 useful functions and tips for R
-
+ 
 - lm_to_sql: this function is used to transform a multiple linear regression formula in R (lm function) into SQL code
 
 - estimation perf metrics: functions for performance metrics of estimation models
